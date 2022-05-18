@@ -1,0 +1,27 @@
+{
+  "name": "gitlab-alerts",
+  "version": "1.0.0",
+  "description": "Projeto simples para rodar uma API com mock de dados.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "serverless deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "promise": "^8.1.0",
+    "request": "^2.88.2",
+    "serverless-http": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}

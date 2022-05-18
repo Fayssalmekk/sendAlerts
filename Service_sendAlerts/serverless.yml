@@ -1,0 +1,30 @@
+
+service: pfe2022-alerts
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  timeout: 10
+  stage: dev
+  
+  environment:
+   PROJECT_ID: "2135"
+   ACCESS_TOKEN: "glpat-xABsgyAGaBNyFa4zQNHt"
+  
+   
+
+
+functions:
+  send_alerts:
+    handler: handler.sendAlerts
+    timeout: 10
+
+    events:
+      - http: 
+          path: alerts
+          method: post
+      - http: 
+          path: alerts
+          method: get
+

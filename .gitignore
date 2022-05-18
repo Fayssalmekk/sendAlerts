@@ -1,0 +1,6 @@
+# package directories
+Service_sendAlerts/node_modules
+Service_sendAlerts/jspm_packages
+Service_sendAlerts/.env
+# Serverless directories
+Service_sendAlerts/.serverless
