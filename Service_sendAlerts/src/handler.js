@@ -22,7 +22,6 @@ module.exports = app;
 
 
 'use strict';
-//const app = require('./index')
 
 
 module.exports.sendAlerts = serverless(app);

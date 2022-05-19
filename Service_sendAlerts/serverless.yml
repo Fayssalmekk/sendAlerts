@@ -17,7 +17,7 @@ provider:
 
 functions:
   send_alerts:
-    handler: handler.sendAlerts
+    handler: src/handler.sendAlerts
     timeout: 10
 
     events:
